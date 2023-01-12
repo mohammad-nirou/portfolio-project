@@ -132,7 +132,7 @@ nav ul li{
 /*****************************************/
 @media(max-width: 768px){
   .particles-canvas{
-    display: none;
+    //display: none;
   }
   .main-info h1{
     font-size: 1.5rem !important;
@@ -148,3 +148,4 @@ nav ul li{
     width: 7rem;
   }
 }
+
