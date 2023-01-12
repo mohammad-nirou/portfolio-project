@@ -13,7 +13,7 @@
 
 
 body{
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif !important;
  
 }
 
@@ -126,7 +126,14 @@ nav ul li{
 }
 
 /**********************PARTICLES JS ***********************************/
+.particles-canvas{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
 
+}
 
 
 /*****************************************/
@@ -149,3 +156,35 @@ nav ul li{
   }
 }
 
+
+
+
+/**********************ABOUT ME***********************************/
+.photo-wrap{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.profile-img{
+  width: 16rem;
+  border-radius: 50%;
+  padding: 0.3rem;
+  border: 0.1875rem solid var(--primary-orange);
+}
+
+.about-heading{
+ 
+  text-transform: uppercase;
+  color: var(--primary-orange);
+  
+}
+
+@media (max-width: 468px){
+  .profile-img{
+    width: 10rem;
+  }
+}
+  

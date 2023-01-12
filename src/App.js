@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
-
+import AboutMe from './components/AboutMe';
 
 function App() {
 
@@ -108,6 +108,7 @@ function App() {
     
     <Navbar />
     <Header />
+    <AboutMe />
 
     </>
   );
