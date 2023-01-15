@@ -9,6 +9,7 @@
   --primary-light-grey: #f4f4f4;
   --primary-grey: #ccd1d9;
   --primary-dark-grey: #666666;
+  --primary-black: #000000;
 
 
 }
@@ -232,7 +233,7 @@ nav ul li{
   background: var(--primary-white);
   border-radius: 0.25rem;
   box-shadow: 0 0.1875rem 0.375rem rgba(0, 0, 0, 0.1);
-  transition: 0.2s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 
 
@@ -352,4 +353,76 @@ nav ul li{
 }
 
 
+/**********************************Portfolio************************************************/
+.portfolio-wrapper{
+  background: var(--primary-light-grey);
+  padding: 3rem 0;
+}
 
+.portfolio-image{
+  width: 15rem;
+  height: 8rem;
+  border: 1px solid var(--primary-orange);
+  padding:0.5rem 0.5rem ;
+  
+  
+  
+}
+
+.portfolio-image-box{
+  position: relative;
+  margin: 1rem;
+  
+}
+
+
+
+/**********************************OVERFLOW BOX************************************************/
+.overflow{
+    position: absolute;
+    opacity: 0  ;
+    background: var(--primary-black);
+    width: 15rem;
+    height: 8rem;
+    top: 0;
+    border: 1px solid var(--primary-red);
+    cursor: pointer;
+
+}
+
+.portfolio-image-box:hover .overflow{
+  opacity: 60%;
+  transition: 0.3s ease-in-out;
+}
+
+.portfolio-icon{
+  position: absolute;
+  opacity: 0;
+  margin-left: -8rem ;
+  margin-top: 3.6rem;
+  color: var(--primary-orange);
+  font-size: 1.5rem;
+
+}
+
+.portfolio-image-box:hover .portfolio-icon{
+  opacity: 70%;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+/**********************************Popup box************************************************/
+.portfolio-image-popupbox{
+  width: 45rem;
+  padding: 0 0.5rem;
+}
+
+.hyper-link{
+  color: var(--primary-orange);
+  cursor: pointer;
+}
+
+.hyper-link:hover{
+  color: var(--primary-red);
+ 
+}
