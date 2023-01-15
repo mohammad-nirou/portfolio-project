@@ -46,10 +46,10 @@ const Header = () => {
               }
           },
           "color": {
-              "value": "#fff"
+              "value": "#f15a29"
           },
           "shape": {
-              "type": "circle",
+              "type": "star",
               "options": {
                   "sides": 5
               }
