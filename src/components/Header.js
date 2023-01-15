@@ -26,7 +26,7 @@ const Header = () => {
 
 
 
-    <div className="header-wraper">
+    <div id="home" className="header-wraper">
 
     <div>
     <Particles className='particles-canvas'
