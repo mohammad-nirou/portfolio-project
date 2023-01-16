@@ -440,12 +440,12 @@ nav ul li{
 .popupbox-wrapper{
  width: 90%;
   height: 75%;
-  margin-top: 2rem;
+  margin-top: 2.3rem;
 }
 /**********************************Popup box MEDIA************************************************/
 @media(max-width: 768px){
   .portfolio-image-popupbox{
-    width: 100%;
+    width: 80%;
   }
 }
 
@@ -464,7 +464,7 @@ nav ul li{
 
 @media(max-height: 280px){
   .popupbox-wrapper{
-        height: 50%
+        height: 60%
       }
     .portfolio-image-popupbox{
           width: 30%;
