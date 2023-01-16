@@ -423,7 +423,7 @@ nav ul li{
 
 /**********************************Popup box************************************************/
 .portfolio-image-popupbox{
-  width: 45rem;
+  width: 30rem;
   padding: 0 0.5rem;
 }
 
@@ -439,7 +439,7 @@ nav ul li{
 
 .popupbox-wrapper{
  width: 90%;
-  height: 60%;
+  height: 75%;
 }
 /**********************************Popup box MEDIA************************************************/
 @media(max-width: 768px){
