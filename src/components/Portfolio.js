@@ -64,6 +64,61 @@ const popupboxConfigBike = {
 }
 
 
+// AI
+
+const openPopupboxAI = () => {
+  const content =(
+  <div>  
+  <img className="portfolio-image-popupbox" src={AI} alt="bike clone project ..." />
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error voluptatibus aperiam, ab assumenda sed ipsa nobis quo tenetur quibusdam aliquam quae? Nostrum, sit, delectus amet minima rem asperiores, mollitia eligendi tenetur iure beatae magni numquam nam deserunt voluptate et! Fuga.</p>
+  
+  <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/mohammad-nirou/Bike_Repair_Website")}>https://github.com/mohammad-nirou/Bike_Repair_Website</a>
+  
+  </div>
+  )
+  PopupboxManager.open({ content })
+
+}
+
+const popupboxConfigAI = {
+  titleBar: {
+    enable: true,
+    text: "Bike Clone Project."
+  },
+  fadeIn: true,
+  fadeInSpeed: 500
+
+}
+
+
+//PRI
+
+const openPopupboxPRI = () => {
+  const content =(
+  <div>  
+  <img className="portfolio-image-popupbox" src={PRI} alt="bike clone project ..." />
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error voluptatibus aperiam, ab assumenda sed ipsa nobis quo tenetur quibusdam aliquam quae? Nostrum, sit, delectus amet minima rem asperiores, mollitia eligendi tenetur iure beatae magni numquam nam deserunt voluptate et! Fuga.</p>
+  
+  <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/mohammad-nirou/Bike_Repair_Website")}>https://github.com/mohammad-nirou/Bike_Repair_Website</a>
+  
+  </div>
+  )
+  PopupboxManager.open({ content })
+
+}
+
+const popupboxConfigPRI = {
+  titleBar: {
+    enable: true,
+    text: "Bike Clone Project."
+  },
+  fadeIn: true,
+  fadeInSpeed: 500
+
+}
+
+
+
 
 
 
@@ -100,7 +155,7 @@ const popupboxConfigBike = {
 
           {/* */}
 
-          <div className="portfolio-image-box">
+          <div className="portfolio-image-box" onClick={openPopupboxAI}>
             <img className="portfolio-image" src={AI} alt="AI project ..." />
             <div className="overflow"></div>
             <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
@@ -108,7 +163,7 @@ const popupboxConfigBike = {
 
           {/* */}
 
-          <div className="portfolio-image-box">
+          <div className="portfolio-image-box" onClick={openPopupboxPRI}>
             <img className="portfolio-image" src={PRI} alt="PRI project ..." />
             <div className="overflow"></div>
             <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
@@ -119,6 +174,8 @@ const popupboxConfigBike = {
       
       <PopupboxContainer {...popupboxConfigBlog} />
       <PopupboxContainer {...popupboxConfigBike} />
+      <PopupboxContainer {...popupboxConfigAI} />
+      <PopupboxContainer {...popupboxConfigPRI} />
     </div>
   );
 };

@@ -204,7 +204,7 @@ nav ul li{
 
 .services h1{
   text-transform: uppercase;
-  color: var(--primary-dark);
+  color: var(--primary-orange);
 }
 
 
@@ -436,6 +436,39 @@ nav ul li{
   color: var(--primary-red);
  
 }
+
+.popupbox-wrapper{
+ width: 90%;
+  height: 90%;
+}
+/**********************************Popup box MEDIA************************************************/
+@media(max-width: 768px){
+  .portfolio-image-popupbox{
+    width: 100%;
+  }
+}
+
+
+@media(max-height: 570px){
+  .popupbox-wrapper{
+    height: 100%;
+
+
+  }
+    .portfolio-image-popupbox{
+      width: 50%;
+    }
+  }
+
+
+@media(max-height: 280px){
+  .popupbox-wrapper{
+        height: 90%
+      }
+    .portfolio-image-popupbox{
+          width: 30%;
+        }
+      }
 
 /**********************************TESTIMONIALS************************************************/
 
