@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../logo.png";
+import logo_01 from "../logo_01.jpg";
 import { Link } from "react-scroll";
 // REACT FONTAWESOME IMPORTS
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -10,7 +11,7 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
       <div className="container">
         <a className="navbar-brand" href="#">
-          <img className="logo" src={logo} alt="logo..."></img>
+          <img className="logo" src={logo_01} alt="logo..."></img>
         </a>
         <button
           className="navbar-toggler"

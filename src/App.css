@@ -30,8 +30,9 @@ nav{
   z-index: 2;
 }
 .logo {
-  width: 16.25rem;
+  width: 10.25rem;
   border-radius: 50px;
+ 
 }
 
 /**************************************MENU LINKS***************************************************/
@@ -56,7 +57,7 @@ nav ul li{
 .navbar-brand{
   max-width: 10.25rem;
   padding: 0 !important;
-  height: 6rem !important;
+  height: 5.5rem !important;
 
 }
 
@@ -101,6 +102,8 @@ nav ul li{
   text-transform: uppercase;
 
 }
+
+
 
 /**********typed text*************/
 
