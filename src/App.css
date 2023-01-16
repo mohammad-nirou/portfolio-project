@@ -439,7 +439,7 @@ nav ul li{
 
 .popupbox-wrapper{
  width: 90%;
-  height: 90%;
+  height: 60%;
 }
 /**********************************Popup box MEDIA************************************************/
 @media(max-width: 768px){
