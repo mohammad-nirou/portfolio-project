@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-project/static/css/main.22783943.css",
-    "main.js": "/portfolio-project/static/js/main.9e008414.js",
+    "main.css": "/portfolio-project/static/css/main.698c706a.css",
+    "main.js": "/portfolio-project/static/js/main.6dafefbc.js",
     "static/js/787.071eb048.chunk.js": "/portfolio-project/static/js/787.071eb048.chunk.js",
     "static/media/header.jpg": "/portfolio-project/static/media/header.c257345872b8dc1fc16a.jpg",
     "static/media/testimonials-bg.jpg": "/portfolio-project/static/media/testimonials-bg.75612be74ca26cb2eee2.jpg",
@@ -10,17 +10,18 @@
     "static/media/PRI.jpg": "/portfolio-project/static/media/PRI.e29c273b001caed2aaa9.jpg",
     "static/media/AI.jpg": "/portfolio-project/static/media/AI.dd80160e3e15025e2ba9.jpg",
     "static/media/me.jpg": "/portfolio-project/static/media/me.dc0f83a40564adaecea7.jpg",
+    "static/media/logo_01.jpg": "/portfolio-project/static/media/logo_01.53f8d2bca3432c5ed820.jpg",
     "static/media/avatar-4.png": "/portfolio-project/static/media/avatar-4.f7fb7ed7493d87bbba75.png",
     "static/media/avatar-3.png": "/portfolio-project/static/media/avatar-3.d6c9b46f1e2a3bbfbefa.png",
     "static/media/avatar-1.png": "/portfolio-project/static/media/avatar-1.9277ecea7570a7cb523d.png",
     "static/media/avatar-2.png": "/portfolio-project/static/media/avatar-2.75d8f23ea5e97b4d897d.png",
     "index.html": "/portfolio-project/index.html",
-    "main.22783943.css.map": "/portfolio-project/static/css/main.22783943.css.map",
-    "main.9e008414.js.map": "/portfolio-project/static/js/main.9e008414.js.map",
+    "main.698c706a.css.map": "/portfolio-project/static/css/main.698c706a.css.map",
+    "main.6dafefbc.js.map": "/portfolio-project/static/js/main.6dafefbc.js.map",
     "787.071eb048.chunk.js.map": "/portfolio-project/static/js/787.071eb048.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.22783943.css",
-    "static/js/main.9e008414.js"
+    "static/css/main.698c706a.css",
+    "static/js/main.6dafefbc.js"
   ]
 }
