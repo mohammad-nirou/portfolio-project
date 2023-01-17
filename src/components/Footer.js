@@ -62,7 +62,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="col-lg-5 col-md-5 col-sm-6 align-items-center">
+          <div className="col-lg-5 col-md-5 col-sm-6 align-items-center iconsPadding">
             <div className="d-flex justify-content-center">
               <FacebookShareButton
                 url={"https://www.linkedin.com/in/mohammad-nirou-693737187/"}

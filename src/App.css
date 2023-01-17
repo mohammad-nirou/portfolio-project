@@ -669,3 +669,9 @@ textarea.form-control{
 .footer p{
  margin-bottom: 0;
 }
+
+.iconsPadding{
+  padding-top: 2rem ;
+  padding-left: 0 !important;
+  
+}

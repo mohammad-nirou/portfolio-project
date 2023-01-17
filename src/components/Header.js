@@ -49,7 +49,7 @@ const Header = () => {
               "value": "#f15a29"
           },
           "shape": {
-              "type": "star",
+              "type": "circle",
               "options": {
                   "sides": 5
               }
