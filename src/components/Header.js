@@ -49,7 +49,7 @@ const Header = () => {
               "value": "#f15a29"
           },
           "shape": {
-              "type": "circle",
+              "type": "star",
               "options": {
                   "sides": 5
               }
@@ -65,7 +65,7 @@ const Header = () => {
               }
           },
           "size": {
-              "value": 4,
+              "value": 2,
               "random": false,
               "anim": {
                   "enable": false,
@@ -86,7 +86,7 @@ const Header = () => {
           },
           "line_linked": {
               "enable": true,
-              "distance": 600,
+              "distance": 200,
               "color": "#ffffff",
               "opacity": 0.4,
               "width": 2
