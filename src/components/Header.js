@@ -3,7 +3,7 @@ import Typed from "react-typed";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import "./Header.css";
-
+import { Link } from "react-scroll";
 
 const Header = () => {
 
@@ -127,16 +127,19 @@ const Header = () => {
 
 
     
-        <h1>web development and website promotions</h1>
+        <h1>Web Development and Artifitial Intelligence</h1>
         <Typed
          className="typed-text" 
-         strings={["Web Design", "Web Development", "Computer Vision", " Artifitial Intelligence"]} 
+         strings={["Web Development", "Web Design",  "Computer Vision", " Artifitial Intelligence"]} 
          typeSpeed={60}
          backSpeed={80}
          loop
          />
-    
-        <a href="#" className="btn-main-offer">contact me</a>
+
+         <Link smooth={true} to="contacts" offset={-110} className="btn-main-offer" href="#">
+              contact me 
+              </Link>
+          
     
     
     </div>
